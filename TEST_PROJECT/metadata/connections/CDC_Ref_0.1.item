@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_BU3DIEoOEeijgpaF16TSeg" name="CDC_Ref" id="_81kNUEoNEeijgpaF16TSeg" label="CDC_Ref" dataPackage="_BVUWIEoOEeijgpaF16TSeg _BVUWIUoOEeijgpaF16TSeg _BVUWIkoOEeijgpaF16TSeg _BVUWI0oOEeijgpaF16TSeg _BVUWJEoOEeijgpaF16TSeg _BVUWJUoOEeijgpaF16TSeg _BVUWJkoOEeijgpaF16TSeg _BVUWJ0oOEeijgpaF16TSeg _BVUWKEoOEeijgpaF16TSeg _BVUWKUoOEeijgpaF16TSeg _BVUWKkoOEeijgpaF16TSeg _BVUWK0oOEeijgpaF16TSeg _BVUWLEoOEeijgpaF16TSeg _BVUWLUoOEeijgpaF16TSeg _BVUWLkoOEeijgpaF16TSeg _BVUWL0oOEeijgpaF16TSeg" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=localhost)(port=1521))(connect_data=(service_name=xe)))" dbVersionString="ORACLE_12" Port="1521" Username="cdc_user" Password="RX/CTwlUNiA=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="xe" SqlSynthax="SQL Syntax" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_BU3DIUoOEeijgpaF16TSeg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_BVA0IEoOEeijgpaF16TSeg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_BVA0IUoOEeijgpaF16TSeg" tag="Status" value=""/>
+    <taggedValue xmi:id="_BVA0IkoOEeijgpaF16TSeg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_BVA0I0oOEeijgpaF16TSeg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_BVA0JEoOEeijgpaF16TSeg" tag="Description" value=""/>
+    <taggedValue xmi:id="_BVA0JUoOEeijgpaF16TSeg" tag="Author" value=""/>
+    <taggedValue xmi:id="_BVA0JkoOEeijgpaF16TSeg" tag="otherParameter"/>
+    <taggedValue xmi:id="_BVO2kEoOEeijgpaF16TSeg" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_BVO2kUoOEeijgpaF16TSeg" tag="DB ProductVersion" value="Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production"/>
+    <taggedValue xmi:id="_BVO2kkoOEeijgpaF16TSeg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <cdcConns xmi:id="_mIUucEoPEeijgpaF16TSeg">
+      <cdcTypes xmi:id="_mIUucUoPEeijgpaF16TSeg" linkDB="_o_HAQEoNEeijgpaF16TSeg" cdcConnection="_mIUucEoPEeijgpaF16TSeg">
+        <subscribers xmi:id="_mIUuc0oPEeijgpaF16TSeg" name="TSUBSCRIBERS" id="_mIUuckoPEeijgpaF16TSeg" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mIUudEoPEeijgpaF16TSeg" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mIUudUoPEeijgpaF16TSeg" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mIUudkoPEeijgpaF16TSeg" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+        </subscribers>
+        <subscribers xmi:id="_wVfGAkoPEeijgpaF16TSeg" name="TCDC_SAMPLE_CDC" id="_wVfGAEoPEeijgpaF16TSeg" label="TCDC_SAMPLE_CDC">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGA0oPEeijgpaF16TSeg" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGBEoPEeijgpaF16TSeg" name="TALEND_CDC_STATE" label="TALEND_CDC_STATE" length="1" sourceType="VARCHAR2" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGBUoPEeijgpaF16TSeg" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR2" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGBkoPEeijgpaF16TSeg" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGB0oPEeijgpaF16TSeg" name="ID" label="ID" length="10" sourceType="NUMBER" talendType="id_BigDecimal" key="true">
+            <initialValue xmi:id="_wVfGCEoPEeijgpaF16TSeg"/>
+          </feature>
+        </subscribers>
+        <subscribers xmi:id="_wVfGCUoPEeijgpaF16TSeg" name="TCDC_VIEW_SAMPLE_CDC" id="_wVfGAUoPEeijgpaF16TSeg" label="TCDC_VIEW_SAMPLE_CDC">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGCkoPEeijgpaF16TSeg" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGC0oPEeijgpaF16TSeg" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR2" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGDEoPEeijgpaF16TSeg" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGDUoPEeijgpaF16TSeg" name="ID" label="ID" length="10" sourceType="NUMBER" talendType="id_BigDecimal" key="true">
+            <initialValue xmi:id="_wVfGDkoPEeijgpaF16TSeg"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wVfGD0oPEeijgpaF16TSeg" name="NAME" label="NAME" length="20" sourceType="VARCHAR2" talendType="id_String">
+            <initialValue xmi:id="_wVfGEEoPEeijgpaF16TSeg"/>
+          </feature>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
+    <parameters xmi:id="_BU3DIkoOEeijgpaF16TSeg" key="CONN_PARA_KEY_USERNAME" value="cdc_user"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWIEoOEeijgpaF16TSeg" name="ANONYMOUS" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWIUoOEeijgpaF16TSeg" name="APEX_040000" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWIkoOEeijgpaF16TSeg" name="APEX_PUBLIC_USER" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWI0oOEeijgpaF16TSeg" name="CDC_USER" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWJEoOEeijgpaF16TSeg" name="CTXSYS" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWJUoOEeijgpaF16TSeg" name="FLOWS_FILES" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWJkoOEeijgpaF16TSeg" name="HR" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWJ0oOEeijgpaF16TSeg" name="MDSYS" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWKEoOEeijgpaF16TSeg" name="OUTLN" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWKUoOEeijgpaF16TSeg" name="PUBLISHER" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWKkoOEeijgpaF16TSeg" name="SAMPLE" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWK0oOEeijgpaF16TSeg" name="SURESH" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWLEoOEeijgpaF16TSeg" name="SYS" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWLUoOEeijgpaF16TSeg" name="SYSTEM" dataManager="_BU3DIEoOEeijgpaF16TSeg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_q3E8kUoPEeijgpaF16TSeg" name="SAMPLE_CDC" id="_q3E8kEoPEeijgpaF16TSeg" label="SAMPLE_CDC" tableType="TABLE" attachedCDC="true" activatedCDC="true">
+      <feature xsi:type="relational:TdColumn" xmi:id="_q3E8kkoPEeijgpaF16TSeg" name="ID" label="ID" length="10" sourceType="NUMBER" talendType="id_BigDecimal" key="true">
+        <taggedValue xmi:id="_q3E8k0oPEeijgpaF16TSeg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_q3E8lEoPEeijgpaF16TSeg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_q3E8lUoPEeijgpaF16TSeg" name="NUMBER" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q3E8lkoPEeijgpaF16TSeg" name="NAME" label="NAME" length="20" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_q3E8l0oPEeijgpaF16TSeg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_q3E8mEoPEeijgpaF16TSeg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_q3E8mUoPEeijgpaF16TSeg" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWLkoOEeijgpaF16TSeg" name="XDB" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_BVUWL0oOEeijgpaF16TSeg" name="XS$NULL" dataManager="_BU3DIEoOEeijgpaF16TSeg"/>
+</xmi:XMI>

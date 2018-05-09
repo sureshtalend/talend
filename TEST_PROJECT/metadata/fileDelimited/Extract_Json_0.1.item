@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Ji95sEOPEeiPOO-RvkUYog" name="Extract_Json" dataPackage="_Ji95sUOPEeiPOO-RvkUYog" Server="Localhost 127.0.0.1" FilePath="C:/Users/bigtapp-90/Desktop/Talend/Sample_output.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Ji95sUOPEeiPOO-RvkUYog" name="default" dataManager="_Ji95sEOPEeiPOO-RvkUYog">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Ji95skOPEeiPOO-RvkUYog" id="_Dg97AEOPEeiPOO-RvkUYog" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ji95s0OPEeiPOO-RvkUYog" label="Column0" length="1025" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_zdTDMUboEeidc7v4TdW_WA" name="Sample_T_PA" dataPackage="_zdTDMkboEeidc7v4TdW_WA" Server="Localhost 127.0.0.1" FilePath="E:/Suresh/POC/T_PA_POLICY_CUSTOMER_RE.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zdTDMkboEeidc7v4TdW_WA" name="default" dataManager="_zdTDMUboEeidc7v4TdW_WA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zdTDM0boEeidc7v4TdW_WA" id="_S4UKgEbnEeidc7v4TdW_WA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDNEboEeidc7v4TdW_WA" label="POLICY_CUSTOMER_ID" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDNUboEeidc7v4TdW_WA" label="CUSTOMER_ID" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDNkboEeidc7v4TdW_WA" label="IS_INSURED" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDN0boEeidc7v4TdW_WA" label="IS_POLICY_HOLDER" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDOEboEeidc7v4TdW_WA" label="POLICY_ID" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDOUboEeidc7v4TdW_WA" label="SEQUENCE_NUMBER" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDOkboEeidc7v4TdW_WA" label="BUSINESS_OBJECT_ID" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDO0boEeidc7v4TdW_WA" label="UPDATE_TIME" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDPEboEeidc7v4TdW_WA" label="UPDATE_BY" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDPUboEeidc7v4TdW_WA" label="INSERT_BY" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDPkboEeidc7v4TdW_WA" label="INSERT_TIME" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDP0boEeidc7v4TdW_WA" label="DYNAMIC_FIELDS" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDQEboEeidc7v4TdW_WA" label="CUSTOMER_REVISION_WHEN_ISSUE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDQUboEeidc7v4TdW_WA" label="COPY_OF_CUSTOMER_BASIC_INFO" length="888" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zdTDQkboEeidc7v4TdW_WA" label="IS_CUSTOMER_COPIED_TO_POLICY" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
