@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_kjh3ADx-EeiM9KYXfeCt-w" name="Sample_XML" dataPackage="_kjieFTx-EeiM9KYXfeCt-w" XmlFilePath="D:/Talend/practice files/Task_sample.xml" Encoding="UTF-8" fileContent="3C666C696768747469633E0D0A093C7069643E35343834363531353532323C2F7069643E0D0A093C616D6F756E743E323531313C2F616D6F756E743E0D0A093C706572736F6E5F64657461696C733E0D0A09093C706572736F6E3E0D0A0909093C666E616D653E6A616B6B613C2F666E616D653E0D0A0909093C6C6E616D653E64696C69703C2F6C6E616D653E0D0A09093C666C79696E666F3E0D0A0909093C666C793E0D0A090909093C737570706C6965723E4554484941443C2F737570706C6965723E0D0A090909093C646174653E323031372F332F32302031313A3435203C2F646174653E0D0A090909093C6D65616C636F64653E32353C2F6D65616C636F64653E0D0A0909093C2F666C793E0D0A0909093C666C793E0D0A090909093C737570706C6965723E416D65726963616E206169726C696E65733C2F737570706C6965723E0D0A090909093C646174653E323031372F332F32312032323A3435203C2F646174653E0D0A090909093C6D65616C636F64653E31393C2F6D65616C636F64653E0D0A0909093C2F666C793E0D0A0909093C666C793E0D0A090909093C737570706C6965723E736F757468776573743C2F737570706C6965723E0D0A090909093C646174653E323031372F332F32332031343A3435203C2F646174653E0D0A090909093C6D65616C636F64653E3C2F6D65616C636F64653E0D0A0909093C2F666C793E0D0A0909093C666C793E0D0A090909093C737570706C6965723E736F757468776573743C2F737570706C6965723E0D0A090909093C646174653E323031372F332F32332031383A33303C2F646174653E0D0A090909093C6D65616C636F64653E32353C2F6D65616C636F64653E0D0A0909093C2F666C793E0D0A09093C2F666C79696E666F3E0D0A09093C2F706572736F6E3E0D0A093C2F706572736F6E5F64657461696C733E0D0A3C2F666C696768747469633E">
+    <schema xmi:id="_kjh3ATx-EeiM9KYXfeCt-w" LimitBoucle="50" AbsoluteXPathQuery="/flighttic/person_details/person/flyinfo/fly">
+      <schemaTargets xmi:id="_kjh3Ajx-EeiM9KYXfeCt-w" RelativeXPathQuery="../../../../pid" TagName="pid"/>
+      <schemaTargets xmi:id="_kjh3Azx-EeiM9KYXfeCt-w" RelativeXPathQuery="../../../../amount" TagName="amount"/>
+      <schemaTargets xmi:id="_kjieEDx-EeiM9KYXfeCt-w" RelativeXPathQuery="../../fname" TagName="fname"/>
+      <schemaTargets xmi:id="_kjieETx-EeiM9KYXfeCt-w" RelativeXPathQuery="../../lname" TagName="lname"/>
+      <schemaTargets xmi:id="_kjieEjx-EeiM9KYXfeCt-w" RelativeXPathQuery="supplier" TagName="supplier"/>
+      <schemaTargets xmi:id="_kjieEzx-EeiM9KYXfeCt-w" RelativeXPathQuery="date" TagName="date"/>
+      <schemaTargets xmi:id="_kjieFDx-EeiM9KYXfeCt-w" RelativeXPathQuery="mealcode" TagName="mealcode"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kjieFTx-EeiM9KYXfeCt-w" name="default" dataManager="_kjh3ADx-EeiM9KYXfeCt-w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kjieFjx-EeiM9KYXfeCt-w" id="_RF29YDx-EeiM9KYXfeCt-w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kjieFzx-EeiM9KYXfeCt-w" label="pid" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kjieGDx-EeiM9KYXfeCt-w" label="amount" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kjieGTx-EeiM9KYXfeCt-w" label="fname" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kjieGjx-EeiM9KYXfeCt-w" label="lname" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kjieGzx-EeiM9KYXfeCt-w" label="supplier" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kjieHDx-EeiM9KYXfeCt-w" label="date" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kjieHTx-EeiM9KYXfeCt-w" label="mealcode" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
